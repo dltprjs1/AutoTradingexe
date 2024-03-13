@@ -43,7 +43,7 @@ def Check_Time():
 
 def read_ini_file(Title,Key):
     config = configparser.ConfigParser()
-    config.read("AutoTrading\AutoTrading.ini")
+    config.read("AutoTrading.ini")
     Value = config.get(Title, Key)
     return Value
 
