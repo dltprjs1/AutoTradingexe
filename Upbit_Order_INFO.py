@@ -76,7 +76,6 @@ def After_Order_Buy(symbol,All_Coin_Average_Transaction_Amount) :
 # 지정가 추가 매수 / 매도 취소  Type = bid : 매수 / ask : 매도
 def Additional_Order_Cancel (BoughtCoinName,Type) :
     WatingOrder = pd.DataFrame(Upbit_Login_INFO.Get_Login_INFO().get_order(BoughtCoinName))
-    print("취소 안하나??")
     for i  in range(len(WatingOrder)) : 
         i = 0
         order_uuid=Upbit_Login_INFO.Get_Login_INFO().get_order(BoughtCoinName)                #내가 지정가 매도/매수한 uuid구하기
