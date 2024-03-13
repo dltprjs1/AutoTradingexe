@@ -64,9 +64,3 @@ AllCoinTrading = threading.Thread(target=Upbit_AllCoinBuy.Main)
 AllCoinTrading.start()
 
 Searching_Transaction_Condition_BTC()
-
-
-
-
-# 주문 조건 초기화 로직 다시 짜기
-# Main 함수 실행 가능토록 로직 다시 짜기
