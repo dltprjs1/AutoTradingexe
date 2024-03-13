@@ -14,8 +14,8 @@ def Driver_Option ():
     
 
 async def main(Text):
-    token = "6662201821:AAFHI0lqT2hSUH2s_fF8y_7WnsXXYUoXyg0"
-    id = "6895295493"
+    token = ""
+    id = ""
     bot = telegram.Bot(token = token)
     await bot.send_message(chat_id=id,text=Text)
 
